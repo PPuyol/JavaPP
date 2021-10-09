@@ -4,10 +4,11 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		System.out.println("Hola Pato");
-		System.out.println("\n\nnombre\t\ttapelido\temail\tinterno");
-		System.out.println("\nPatricia\tPuyol\t\tpuyolpatricia@gmail.com\t19523");
-		System.out.println("\nMaría\tMartinez\t\tmmartinez@bpba.com.ar\t27835");
-		System.out.println("\nErica\tSimon\t\tsimone1956@gmail.com\t32856");
+		System.out.println("Nombre    \tApellido\temail                  \t\tInterno");
+		System.out.println("----------\t--------\t-----------------------\t\t-------");
+		System.out.println("\nPatricia\tPuyol   \tpuyolpatricia@gmail.com\t\t19523  ");
+		System.out.println("María     \tMartinez\tmmartinez@bpba.com.ar  \t\t27835  ");
+		System.out.println("Erica     \tSimon   \tsimone1956@gmail.com   \t\t32856  ");
 
 	}
 
