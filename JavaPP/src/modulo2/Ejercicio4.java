@@ -23,6 +23,28 @@ public class Ejercicio4 {
 		System.out.println("la suma de int  + int   es int (= " + sumaii + ")");
 		System.out.println("la suma de sort + long  es long (= " + sumasl + ")");
 		
+		//random
+		b = (byte) (Math.random() * Byte.MAX_VALUE);
+		s = (short) (Math.random() * Short.MAX_VALUE);
+		i = (int) (Math.random() * Integer.MAX_VALUE);
+		l = (long) (Math.random() * Long.MAX_VALUE);
+
+		sumabb = b + b;
+		sumabs = b + s;
+		sumabi = b + i;
+		sumaii = i + i;
+		sumasl = s + l;
+		
+		System.out.println("\n\nRandom");
+		System.out.println("byte  = " + b);
+		System.out.println("short = " + s);
+		System.out.println("int   = " + i);
+		System.out.println("long  = " + l);
+		System.out.println("sumabb = " + sumabb);
+		System.out.println("sumabs = " + sumabs);
+		System.out.println("sumabi = " + sumabi);
+		System.out.println("sumaii = " + sumaii);
+		System.out.println("sumasl = " + sumasl);
 		
 	}
 
